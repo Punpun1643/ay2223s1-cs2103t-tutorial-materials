@@ -51,8 +51,4 @@ public Task(String d) {
 this.important = true
 ```
     
-<<<<<<< HEAD
 - The style in `DESCRIPTION_PREFIX` (i.e. all capitals, separated by underscores) is sometimes called *screaming snake* style
-=======
-- The style in `DESCRIPTION_PREFIX` (i.e. all capitals, separated by underscores) is sometimes called *screaming snake* style
->>>>>>> 3417b49 (Update file)
