@@ -31,7 +31,8 @@ List<String> pastDescription = new ArrayList<>(); // a list of past descriptions
 public String toString() { return descriptionPrefix + description; }
 ```
 
-**A:** No. The *‘must have x’* rule applies for all cases except for those cases that are explicitly mentioned as *‘can omit for cases…’* Java has a way to specify that a method inherits the comment from the parent class *({@inheritdoc})*, which means there is no need to duplicate the comment in all child classes. 
+**A:** No. The *‘must have x’* rule applies for all cases except for those cases that are explicitly mentioned as *‘can omit for cases…’* Java has a way to specify that a method inherits the comment from the parent class *({@inheritdoc})*, which means there is no need to duplicate the comment in all child classes. (More info here: [#44](https://github.com/nus-cs2103-AY2223S1/forum/issues/44#issuecomment-1221465365))
+
 
 # Noteworthy
 
