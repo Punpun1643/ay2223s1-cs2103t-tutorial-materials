@@ -44,9 +44,9 @@ class Cat {
 
 **A:** Composition would be more appropriate in this case. It does not really make sense for a `Chapter` to exist without a `Book`. In this case, it is more accurate to model this relationship as *whole-part*.
 
-**Q: Should we describe composition as 'when Whole gets destroyed, Part gets destroyed'**
+**Q: Should we describe composition as 'when *whole* gets destroyed, *part* gets destroyed'**
 
-**A:** This is the *side effect*. Conceptually composition is a whole-part relationship. 
+**A:** This is the *side effect*. Conceptually composition is a *whole-part* relationship. 
 
 ## Navigability
 
