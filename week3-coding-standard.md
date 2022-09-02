@@ -53,3 +53,10 @@ this.important = true
 ```
     
 - The style in `DESCRIPTION_PREFIX` (i.e. all capitals, separated by underscores) is sometimes called *screaming snake* style
+
+# Something to think about
+
+These are something that you could try to think about when you are revising this topic. Feel free to discuss with your team/forum/me if you are not sure 😄
+
+1. Is there any difference between coding standards and code quality?
+
