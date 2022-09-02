@@ -78,5 +78,7 @@ These are something that you could try to think about when you are revising this
 
 5. What is the purpose of association class?
 
+6. Differences between object and class diagram?
+
 # Interesting forum discussions
 - ([#86](https://github.com/nus-cs2103-AY2223S1/forum/issues/86)) Question about Association, Composition, and Aggregation
