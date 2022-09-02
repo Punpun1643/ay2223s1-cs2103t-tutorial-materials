@@ -60,3 +60,5 @@ These are something that you could try to think about when you are revising this
 
 1. Is there any difference between coding standards and code quality?
 
+# Interesting forum discussions
+- ([#44](https://github.com/nus-cs2103-AY2223S1/forum/issues/44)) JavaDoc comments
