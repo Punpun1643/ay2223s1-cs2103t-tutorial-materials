@@ -3,6 +3,7 @@
 Tags: `W6` `UML diagrams` `sequence diagram`
 
 # Q&As
+![9B287FEF-D13C-41C6-BBFE-D67DE0CB0429](https://user-images.githubusercontent.com/60144099/190624024-3447bced-9dec-42a0-bb89-6e262c9c8e14.png)
 
 **Q: Is it correct to interpret that the `main` method calls the `producePrototype()` method of m?**
 
@@ -11,6 +12,8 @@ Tags: `W6` `UML diagrams` `sequence diagram`
 The precise way of describing this should be: an *unspecified object* calls the `producePrototype()` method of m.
 
 **❌ Common misconception:** The `main ` method calls the `producePrototype()` method.
+
+![4C405176-D998-46A4-87E8-320D7EA126B5](https://user-images.githubusercontent.com/60144099/190624123-65f37e9e-59bb-435d-a16e-7a317d29263c.png)
 
 **Q: Are there any differences between the first and second activation bar?**
 
@@ -36,6 +39,8 @@ Italics does represent abstract method in *class diagram* though. You can revise
 
 **❌ Common misconception:** Omitting means the method does not return anything. 
 
+![37A2585E-3EFC-43C3-9DEF-A3BEE73FFC4E](https://user-images.githubusercontent.com/60144099/190624664-253af920-6ba3-4193-bac7-e97c7c0a86d8.png)
+
 **Q: If we omit the return arrow, does it mean that `stressTest()` method return nothing?**
 
 **A:** We do not know. Since nothing is being written at the return arrow, it could be that it is retuning something, or it could be that it does not return anything.
@@ -50,6 +55,8 @@ Italics does represent abstract method in *class diagram* though. You can revise
 
 **A:** Yes.
 
+![9356DACA-DC60-4DD5-98A7-1D3304BE5AB8](https://user-images.githubusercontent.com/60144099/190624284-6dc4c310-07b1-47cd-81a1-a601c8aa076c.png)
+
 **Q: In this diagram, the return arrow at the bottom shows which value will be returned. In this case, is the return arrow omittable?**
 
 **A:** No. As the text is an add-on to the arrow, the text should not appear without the arrow.
@@ -58,7 +65,6 @@ Italics does represent abstract method in *class diagram* though. You can revise
 - Show arrow only: OK
 - Show arrow and text: OK
 - Show text but not arrow: not OK
-
 
 # Noteworthy
 - In UML diagrams, many things are *optional*. Just because the diagram does not show something does not mean that those things do not exist. It just means that who ever drew the diagram was not interested in showing all those details that have been omitted because they may not be relevant for the purpose of the diagram.
