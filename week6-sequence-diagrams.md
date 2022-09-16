@@ -29,7 +29,7 @@ They both represent something being activated though.
 
 **A:** No. Italics does not mean anything in sequence diagram. It does not represent *abstract method*. 
 
-Italics does represent abstract method in *class diagram* though. You can revise your *class diagram* here.
+Italics does represent abstract method in *class diagram* though. You can revise your *class diagram* [here](https://github.com/Punpun1643/cs2103t-tutorial-materials/blob/master/week4-object-class-diagrams.md#week-4-interpreting-uml-classobject-diagrams).
 
 **❌ Common misconception:** It represents *abstract method*.
 
