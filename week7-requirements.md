@@ -15,6 +15,7 @@ Repeat step 4 until satisfied
 Use case ends.
 
 **Extensions:**
+
 2a. No PRs allocated to the tutor
 
 Use case ends
