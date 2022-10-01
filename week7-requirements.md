@@ -83,4 +83,4 @@ Use case ends
 - UI details are usually **omitted**. The idea is to leave as much flexibility to the UI designer as possible. The main purpose of use case is to capture the interaction between the user and the system. (Example of UI detials include but not limited to: *right click*, *text box*, *exact command names* etc.)
 
 # Interesting forum discussions
-Seems like there is not much discussion on sequence diagram in the forum as of now. Will add to the list if I see interesting stuff!
+Seems like there is not much discussion on specifying requirements in the forum as of now. Will add to the list if I see interesting stuff!
