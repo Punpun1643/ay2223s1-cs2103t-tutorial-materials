@@ -26,7 +26,7 @@ Tags: `W8` `DG` `UML diagrams` `sequence diagram` `class diagram` `object diagra
 
 **A:** You can capitalize the attribute name, that should be enough within the scope of this module.
 
-**Q: Is dependency arrow compulsory from `Inventory` class to `Billable` interface? (since there is already a way to tell that there is a dependency through the arguments of the `generateBill(Billable)` method)**
+**Q: Is dependency arrow compulsory from `Inventory` class to `Billable` interface? (since there is already a way to tell that there is a dependency through the arguments of the `generateBill(Billable)` method)** [go to [diagram](https://github.com/Punpun1643/cs2103t-tutorial-materials/blob/master/week8-drawing-class-object-sequence-diagrams.md#miscellaneous)]
 
 **A:** Yes, it is better to show it visually, as the method signature is not a direct replacement for the dependency arrow.
 
