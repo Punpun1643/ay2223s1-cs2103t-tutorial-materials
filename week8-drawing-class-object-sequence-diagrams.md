@@ -38,7 +38,7 @@ Tags: `W8` `DG` `UML diagrams` `sequence diagram` `class diagram` `object diagra
 
 **Q: If we show `Rating` as an attribute inside the `Review` class, would there be a way for us to show/capture the whole-part relationship between `Review` and `Rating` since we do not explicitly show composition?**
 
-**A:** No. Again, you need to decide and choose which messsage you wwant your diagram to capture (i.e. to capture the whole-part relationship by showing composition vs to capture some message that could be delivered by showing association/attribute as a line).
+**A:** No. Again, you need to decide and choose which messsage you want your diagram to capture (i.e. to capture the whole-part relationship by showing composition vs to capture some message that could be delivered by showing association/attribute as a line).
 
 ## Miscellaneous
 
