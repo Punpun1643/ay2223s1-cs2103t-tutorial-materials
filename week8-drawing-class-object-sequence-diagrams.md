@@ -58,6 +58,9 @@ Tags: `W8` `DG` `UML diagrams` `sequence diagram` `class diagram` `object diagra
 
 **A:** Yes, it is possible, but the same `Rating` object cannot be part of two other objects. E.g. the below is possible, that doesn't mean that the same `Leg` object can belong to a `Human` and a `Tiger` at the same time.
 
+![0A7079E6-81D7-4EB4-800F-D3919189AFA0](https://user-images.githubusercontent.com/60144099/194712164-3b82510d-a822-4c05-892c-5020d552fb47.jpeg)
+
+
 **Q: Why is there a dependency arrow from `StockItem` to `Rating` but association arrow from `StockItem` to `Review`?**
 
 **A:** 
