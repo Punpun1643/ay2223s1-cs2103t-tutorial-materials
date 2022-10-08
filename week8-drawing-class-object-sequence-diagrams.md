@@ -46,6 +46,76 @@ Tags: `W8` `DG` `UML diagrams` `sequence diagram` `class diagram` `object diagra
 
 ![E0B90192-320B-43E4-821D-820FC33D441C_1_201_a](https://user-images.githubusercontent.com/60144099/194712037-04a88be4-ed75-4308-bdbe-cdda7bb39151.jpeg)
 
+[Code for reference]
+
+```java
+public interface Billable {
+    void bill();
+}
+```
+```java
+public abstract class Item
+         implements Billable {
+    public abstract void print();
+}
+```
+```java
+public class StockItem extends Item {
+    private Review review;
+    private String name;
+
+    public StockItem(
+        String name, Rating rating) {
+
+        this.name = name;
+        this.review = new Review(rating);
+    }
+
+    @Override
+    public void print() {
+        //...
+    }
+
+    @Override
+    public void bill() {
+        //...
+    }
+}
+```
+```java
+public enum Rating {
+    GOOD, OK, POOR
+}
+```
+```java
+public class Review {
+    private final Rating rating;
+
+    public Review(Rating rating) {
+        this.rating = rating;
+    }
+}
+```
+```java
+import java.util.List;
+
+public class Inventory {
+    private List<Item> items;
+
+    public int getItemCount() {
+        return items.size();
+    }
+
+    public void generateBill(Billable b) {
+        // ...
+    }
+
+    public void add(Item s) {
+        items.add(s);
+    }
+}
+```
+
 **Q: If the abstract `Item` class implements the `bill()` method in the code, then should the `bill()` method be included in its class in the UML model?**
 
 **A:** Yes. 
