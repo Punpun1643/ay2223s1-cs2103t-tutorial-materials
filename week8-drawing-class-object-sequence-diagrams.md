@@ -42,6 +42,10 @@ Tags: `W8` `DG` `UML diagrams` `sequence diagram` `class diagram` `object diagra
 
 ## Miscellaneous
 
+[Diagrams for reference]
+
+![E0B90192-320B-43E4-821D-820FC33D441C_1_201_a](https://user-images.githubusercontent.com/60144099/194712037-04a88be4-ed75-4308-bdbe-cdda7bb39151.jpeg)
+
 **Q: If the abstract `Item` class implements the `bill()` method in the code, then should the `bill()` method be included in its class in the UML model?**
 
 **A:** Yes. 
