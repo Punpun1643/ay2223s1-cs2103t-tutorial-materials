@@ -28,10 +28,10 @@ Tags: `W9` `OODM` `UML diagrams` `activity diagram`
 
 These are something that you could try to think about when you are revising this topic. Feel free to discuss with your team/forum/me if you are not sure 😄
 
-- We have gone through several diagrams for the past tutorials: class, object, sequence, OODM, activity diagrams. Can you tell the **differences** between these diagrams? There are also some **notations** that are shown in certain diagrams but not in others, do you know what these notaions are?
+- We have gone through several diagrams for the past tutorials: class, object, sequence, OODM, activity diagrams. Can you tell the **differences** between these diagrams? There are also some **notations** that are shown in certain diagrams but not in others, do you know what these notations are?
 
 - Different diagrams can be used in different situations. In the tutorial, we went through the situation where we should aid our explanation using an object diagram ('The course CS101 is taught by Prof Lee. It has two optional assignments and one test'). You could think about the other situations where you could use other diagrams to aid your explanation. 
 
 # Interesting forum discussions
 
-Seems like there is not much discussion on specifying requirements in the forum as of now. Will add to the list if I see interesting stuff!
+Seems like there is not much discussion on OODM/activity diagrams in the forum as of now. Will add to the list if I see interesting stuff!
