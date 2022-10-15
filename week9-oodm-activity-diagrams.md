@@ -12,9 +12,9 @@ Tags: `W9` `OODM` `UML diagrams` `activity diagram`
 
 ![3F90017D-0E44-4E4D-8B63-02ADC026241A](https://user-images.githubusercontent.com/60144099/195984897-cb593d23-b6e6-4d67-aa0c-0b79da2d9339.jpeg)
 
-**Q: Does this multiplicity of 1 (for Attempt) mean that a student can only be associated with one attempt for a given task (i.e. a student `S1` can only attempt task `T1` once)?**
+**Q: Does this multiplicity of `1` (for `Attempt`) mean that a `Student` can only be associated with one `Attempt` for a given `Task` (i.e. a `Student` S1 can only attempt `Task` T1 once)?**
 
-**A:** This intepretation is not correct. Putting `1` means that a student can only make one attempt in total, not one attempt **per task**. So it is not possible to use multiplicity to indicate 'x attempts per task' in this diagram. But can use a UML note to add that info.
+**A:** This intepretation is not correct. Putting `1` means that a `Student` can only make **one attempt in total**, not one attempt **per task**. So it is not possible to use multiplicity to indicate 'x attempts per task' in this diagram. But can use a UML note to add that info.
 
 # Noteworthy
 
