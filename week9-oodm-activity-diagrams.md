@@ -4,9 +4,13 @@ Tags: `W9` `OODM` `UML diagrams` `activity diagram`
 
 # Q&As
 
+![886A7CA2-F7A8-41D7-B81F-53719FB35C89](https://user-images.githubusercontent.com/60144099/195984858-9a12aae2-9690-4c00-9ad2-fa567896dd36.jpeg)
+
 **Q: For this diagram, we are showing coordinator as a separate association. In the case where coordinator has its own fields/methods e.g. something different from a regular instructor like admin rights etc., would this diagram still be valid?**
 
 **A:** In that case this design is not ideal. A better design is to introduce additional classes to represent the roles e.g., CoordinatorRole. It also depends on whether such information is common to all coordinator roles played by a person (e.g., total modules coordinated) or specific to the coordinator role of a given module (e.g., start/end dates of the role).
+
+![3F90017D-0E44-4E4D-8B63-02ADC026241A](https://user-images.githubusercontent.com/60144099/195984897-cb593d23-b6e6-4d67-aa0c-0b79da2d9339.jpeg)
 
 **Q: Does this multiplicity of 1 (for Attempt) mean that a student can only be associated with one attempt for a given task (i.e. a student `S1` can only attempt task `T1` once)?**
 
