@@ -1,5 +1,7 @@
 # Week 11: Test cases heuristics, design patterns
 
+Tags: `W11` `EPs` `Design patterns` `Exam preprarations`
+
 # Q&As
 
 ![EFCD42A4-B1A9-45F7-9D7D-810F82BDF6A9_1_105_c](https://user-images.githubusercontent.com/60144099/201805093-c90a6171-404b-45a4-87d9-d21bf711c3fb.jpeg)
