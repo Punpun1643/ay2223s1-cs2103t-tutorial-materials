@@ -2,13 +2,19 @@
 
 # Q&As
 
+![EFCD42A4-B1A9-45F7-9D7D-810F82BDF6A9_1_105_c](https://user-images.githubusercontent.com/60144099/201805093-c90a6171-404b-45a4-87d9-d21bf711c3fb.jpeg)
+
 **Q: Should test cases be in any particular order? For example, in the screenshot, it seems like it would be 'better' to slot `TC4` right after `TC1` as doing so we would have tested that SUT works for `rice`?**
 
 **A:** The ordering of test cases might have an effect. In this module, we do not consider that aspect. In fact, there is a general guidance that one should not depend on tests running in a particular order as some hidden dependencies between test cases can hide bugs. In fact, some testing frameworks run tests in random order by default, to prevent such dependencies.
 
+![93965137-49FE-42B4-81A6-07338DDB6621](https://user-images.githubusercontent.com/60144099/201805123-868b2ffd-3f30-415e-a741-b46656675b15.jpeg)
+
 **Q: In the screenshot, is it necessary to have the label `<<facade>>`, and if so, should there also be label `<<command>>`?**
 
 **A:** It is optional to add such `<<role>>` to elements of the diagram, to provide more information about a special role played by such an element.
+
+![9A09960C-EB05-40BF-97CC-19C9022BA3F6](https://user-images.githubusercontent.com/60144099/201805171-0035c46b-76a3-4977-8316-b51f3425289b.jpeg)
 
 **Q Can the `Job` class(es) play the role of `<<Observable>>`?**
 
@@ -24,6 +30,8 @@
 
 # Noteworthy
 
+![4E25C765-0C55-4F96-B851-089496997F16](https://user-images.githubusercontent.com/60144099/201805205-a575d1d9-ebaf-4124-ac41-584fc44e84bf.jpeg)
+
 - Remember we had a discussion on equivalence partitions? During the tutorial, some of you combine 29, 30, 31 as one EP (i.e. [29..31]). 
 
 EP are group of test inputs that are likely to be processed by the SUTs the same way. This also mean that they likely have the same logic/implementations handling these values. 
@@ -33,6 +41,7 @@ To help indentify EP, you can try to think whether the logic/implementation hand
 # Resources that I found useful for finals preparation
 
 ## Good cheatsheet
+
 - I used [this cheatsheet](https://github.com/AaronCQL/serious-collection/tree/master/CS2103T) as a sanity check. I also used it as a quick reference during the finals in case I suddenly forgot anything (Note: This was not done by me, credits go to the creator).
 
 ## Code quality
